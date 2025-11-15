@@ -1,0 +1,39 @@
+.box {
+    background-color: teal;
+    width: 300px;
+    padding: 10px 30px;
+    border: 10px solid red;
+}
+
+.box h1 {
+    background-color: yellow;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.margin2 {
+    margin: 40px;
+}
+
+.contenedor {
+    background-color: CYAN;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+.grid {
+    height: 100vh;
+    background-color: salmon;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.item:nth-child(even) {
+    background-color: lightblue;
+    grid-column: span 2;
+}
